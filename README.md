@@ -1,2 +1,2 @@
 # NotesHtml
-### Html files of notes web application
+### Frontend files of notes web application
