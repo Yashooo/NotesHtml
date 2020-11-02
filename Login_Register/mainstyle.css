@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.lbl{
+    padding: 15px;
+    text-align: center;
+}
+.form-box{
+    width: 70%;
+    height: 80%;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.input-group{
+    top: 90px;
+    left: 90px;
+    position: absolute;
+    width: 480px;
+    transition: .5s;
+    text-align: center;
+}
+.input-field{
+    width: 100%;
+    padding: 10px ;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+#area{
+    width: 100%;
+    padding: 10px ;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    resize: none;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px 20px;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.lbl2{
+    top: 16%;
+    position: absolute;
+    left: 650px;
+}
